@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(65, 63, 63);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    border: 1px solid rgb(41, 40, 40);
+    border-radius: 5px;
+    width: 20em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 6rem;
+    padding: 4em;
+}
+
+#p1Button {
+    margin-top: 2rem;
+    padding: 1em;
+    border: none;
+    border-radius: 4px;
+    background-color: yellowgreen;
+}
+
+#p2Button{
+    margin-top: 2rem;
+    padding: 1em;
+    border: none;
+    border-radius: 4px;
+    background-color:yellowgreen;
+}
+
+#reset{
+    margin-top: 2rem;
+    padding: 1em;
+    border: none;
+    border-radius: 4px;
+    background-color:tomato;
+}
+
+#playto {
+    padding: 0.6em;
+    border: none;
+    border-radius: 4px;
+}
+
+.label1 {
+    font-weight: bold;
+    padding: 0.5em;
+}
